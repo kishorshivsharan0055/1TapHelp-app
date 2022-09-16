@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginBottom="5dp"
+    >
+
+    <RelativeLayout
+        android:id="@+id/contactListItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <TextView
+            android:id="@+id/contactName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="Contact Name"
+            android:textColor="?android:attr/textColorPrimary"
+            />
+
+        <TextView
+            android:id="@+id/contactPhno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/contactName"
+            android:text="PhNo"
+            android:textSize="15sp"
+            android:textColor="@android:color/tertiary_text_dark"
+            />
+
+
+        <ImageView
+            android:id="@+id/btnContactDelete"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_vertical"
+            android:tint="?android:attr/textColorPrimary"
+            android:background="@drawable/ic_delete_black_24dp"
+            android:contentDescription="Delete"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+
+</LinearLayout>

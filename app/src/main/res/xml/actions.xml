@@ -1,0 +1,16 @@
+<?xml version ="1.0" encoding ="utf-8"?><!--  Learn More about how to use App Actions: https://developer.android.com/guide/actions/index.html -->
+<actions>
+<!--            <fulfillment-->
+<!--                urlTemplate="1th://1taphelp/sendSignal"/>-->
+        <action intentName="actions.intent.SEND_SOS_SIGNAL">
+<!--            <action-display-->
+<!--                icon="@mipmap/..."-->
+<!--                labelTemplate="@array/..." />-->
+            <fulfillment urlTemplate="1th://1taphelp/sendSignal">
+<!--                <parameter-mapping-->
+<!--                    intentParameter="taxiReservation.dropoffLocation.name"-->
+<!--                    urlParameter="p"/>-->
+
+            </fulfillment>aZ
+        </action>
+</actions>

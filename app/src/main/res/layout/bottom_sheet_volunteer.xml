@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:paddingHorizontal="25dp"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="30dp"
+            android:layout_height="5dp"
+            android:layout_gravity="center"
+            android:layout_marginVertical="25dp"
+            android:background="@drawable/swipe_up_handle" />
+
+        <TextView
+            android:text="Someone around you needs help."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="?android:attr/textColorPrimary"
+            />
+
+        <TextView
+            android:text="Can you help ?"
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:textColor="?android:attr/textColorSecondary"
+            />
+
+        <TextView
+            android:text="Name : Test"
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:textColor="?android:attr/textColorSecondary"
+            android:id="@+id/bottomSheet_volunteerUserName"
+            />
+
+        <TextView
+            android:text="Phone No. : 123456123"
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:textColor="?android:attr/textColorSecondary"
+            android:id="@+id/bottomSheet_volunteerUserPhoneNo"
+            />
+
+        <ImageView
+            android:id="@+id/bottomSheet_volunteerUserImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginVertical="25dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:text="I can help"
+                android:id="@+id/bottomSheet_volunteerbtnHelp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_marginEnd="10dp"
+                style="@style/Widget.MaterialComponents.Button"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:text="View Location"
+                android:id="@+id/bottomSheet_volunteerbtnLocation"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:text="Cancel"
+                android:id="@+id/bottomSheet_volunteerbtnCancel"
+                android:layout_width="wrap_content"
+                android:layout_marginStart="10dp"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <TextView
+            android:text="You'll receive reward points when you help someone."
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="16dp"
+            android:textColor="?android:attr/textColorSecondary"
+            android:id="@+id/bottomSheet_eventNoImage"
+            android:layout_marginBottom="25dp"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

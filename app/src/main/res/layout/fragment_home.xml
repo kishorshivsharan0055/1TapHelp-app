@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:layout_gravity="center_vertical"
+    android:orientation="vertical"
+    android:paddingHorizontal="25dp">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card_sent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginVertical="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <!-- Title, secondary and supporting text -->
+                <TextView
+                    android:id="@+id/card_sent_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_signal_sent"
+                    android:textAppearance="?attr/textAppearanceHeadline6" />
+
+                <TextView
+                    android:id="@+id/card_sent_text2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_signal_accepted"
+                    android:textAppearance="?attr/textAppearanceBody2"
+                    android:textColor="?android:attr/textColorSecondary" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card_accepted"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginVertical="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <!-- Title, secondary and supporting text -->
+                <TextView
+                    android:id="@+id/card_accepted_text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_HelpOnTheWay"
+                    android:textAppearance="?attr/textAppearanceHeadline6" />
+
+                <TextView
+                    android:id="@+id/card_accepted_text_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_acceptingStation"
+                    android:textAppearance="?attr/textAppearanceBody2"
+                    android:textColor="?android:attr/textColorSecondary" />
+
+                <TextView
+                    android:id="@+id/card_accepted_text_distance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_StationDistance"
+                    android:textAppearance="?attr/textAppearanceBody2"
+                    android:textColor="?android:attr/textColorSecondary" />
+
+            </LinearLayout>
+
+            <!-- Buttons -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginBottom="8dp"
+                android:orientation="horizontal">
+
+                <com.google.android.material.button.MaterialButton
+                    style="?attr/borderlessButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/signalAccepted_Callbtn"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:text="@string/text_call"
+                    app:icon="@drawable/ic_phone_black_24dp" />
+
+                <com.google.android.material.button.MaterialButton
+                    style="?attr/borderlessButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/signalAccepted_Trackbtn"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:text="Track Station"
+                    app:icon="@drawable/ic_baseline_location_on_24" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/fab_sendSignal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="bottom|center"
+        android:contentDescription="@string/text_sendSignal"
+        android:text="@string/text_sendSignal"
+        app:icon="@drawable/ic_baseline_send_24" />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+
+        android:textAlignment="center"
+        android:lineSpacingExtra="5dp"
+        android:text="What kind of help do you want ? \n Press a button to Send Signal." />
+
+    <com.google.android.material.button.MaterialButtonToggleGroup
+        android:id="@+id/toggleButton_signalType"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        app:singleSelection="true"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_Ambulance"
+            android:text="Ambulance"
+            app:icon="@drawable/ic_baseline_local_hospital_24"
+            style="@style/Widget.App.Button.OutlinedButton.IconOnly"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tooltipText="Ambulance"
+            />
+        <Button
+            android:id="@+id/btn_Fire"
+            android:text="Fire"
+            android:tooltipText="Fire"
+            app:icon="@drawable/ic_baseline_fireplace_24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.App.Button.OutlinedButton.IconOnly"
+            />
+        <Button
+            android:id="@+id/btn_Police"
+            android:text="Police"
+            android:tooltipText="Police"
+            app:icon="@drawable/ic_baseline_directions_car_24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.App.Button.OutlinedButton.IconOnly"
+            />
+
+    </com.google.android.material.button.MaterialButtonToggleGroup>
+
+
+    <Button
+        android:id="@+id/btn_captureImage"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/text_captureImage"
+        app:icon="@drawable/ic_baseline_camera_alt_24" />
+
+    <TextView
+        android:id="@+id/captureImageHint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="@string/text_captureImageHint" />
+    <TextView
+        android:id="@+id/signalReceiversTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:visibility="gone"
+        android:text="@string/text_ReceivingStations" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/receivingStationsList"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="200dp"
+        tools:listitem="@layout/station_item" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:id="@+id/capturedImages"
+        >
+        <ImageView
+            android:id="@+id/imgview"
+            android:layout_width="140dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_height="137dp"/>
+
+        <ImageView
+            android:id="@+id/imgview2"
+            android:layout_width="140dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_height="137dp"
+/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

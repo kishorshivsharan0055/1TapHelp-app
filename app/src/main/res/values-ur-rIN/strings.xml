@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">1TapHelp</string>
+    <string name="phone_number">فون نمبر</string>
+    <string name="action_settings">ترتیبات</string>
+    <string name="login">لاگ ان کریں</string>
+    <string name="verification_code">تصدیقی کوڈ</string>
+    <string name="submit">جمع کرائیں</string>
+    <string name="register">رجسٹر کریں</string>
+    <string name="reg_name">نام</string>
+    <string name="title_volunteer_mode">رضاکارانہ وضع</string>
+    <string name="volunteer_mode_summary">جب رضاکارانہ طرز موڈ آن ہو تو ، اگر آپ کے علاقے میں کسی کو مدد کی ضرورت ہو تو آپ کو انتباہ ملے گا۔ جب آپ کسی کی مدد کرتے ہیں تو آپ کو پوائنٹس سے نوازا جائے گا۔</string>
+    <string name="language">زبان</string>
+    <string name="logout">لاگ آوٹ</string>
+    <string name="title_emergency_contacts">ہنگامی رابطے</string>
+    <string name="emergency_contacts_summary">5 ایمرجنسی روابط منتخب کریں جن سے ایمرجنسی کی صورت میں خود بخود رابطہ کیا جائے گا۔</string>
+    <string name="user_image">صارف کی تصویر</string>
+    <string name="text_signal_sent">سگنل بھیجا گیا</string>
+    <string name="text_signal_accepted">آپ کا اشارہ بھیج دیا گیا تھا۔ جب آپ کو ڈیزاسٹر مینجمنٹ اسٹیشن آپ کے اشارے کو قبول کرے گا تو ہم آپ کو مطلع کریں گے۔</string>
+    <string name="text_HelpOnTheWay">مدد جاری ہے</string>
+    <string name="text_acceptingStation">آپ کا اشارہ قبول کر لیا گیا </string>
+    <string name="text_StationDistance">تقریبا 1 کلومیٹر دور</string>
+    <string name="text_call">کال کریں</string>
+    <string name="text_sendSignal">ایس او ایس سگنل بھیجیں</string>
+    <string name="text_captureImageHint">تصاویر دستی طور پر کیپچر کریں \ n (اگر کسی اور کو مدد کی ضرورت ہو)</string>
+    <string name="text_captureImage">تصاویر پر قبضہ</string>
+    <string name="text_ReceivingStations">آپ کا اشارہ درج ذیل ڈیزاسٹر مینجمنٹ اسٹیشنوں کو بھیجا گیا تھا:</string>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+android:layout_marginBottom="5dp"
+    >
+
+<RelativeLayout
+    android:id="@+id/disasterUpdatesListItem"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
+
+
+    <TextView
+        android:id="@+id/eventName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="?android:attr/textColorPrimary"
+        android:text="Event Name"
+
+        />
+
+    <TextView
+        android:id="@+id/eventTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/eventName"
+        android:text="Event Time"
+        android:textSize="15sp"
+        android:textColor="?android:attr/textColorSecondary"
+        />
+
+    <TextView
+        android:id="@+id/eventDistance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/eventTime"
+        android:text="Event Distance"
+        android:textSize="12sp"
+        android:textColor="?android:attr/textColorHint"
+        />
+
+</RelativeLayout>
+
+</LinearLayout>
+

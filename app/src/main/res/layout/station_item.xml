@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginBottom="5dp"
+    >
+
+
+    <RelativeLayout
+        android:id="@+id/stationListItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+
+        <TextView
+            android:id="@+id/stationName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="?android:attr/textColorPrimary"
+            android:text="Station Name"
+            />
+
+        <TextView
+            android:id="@+id/stationNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/stationName"
+            android:text="Phone No."
+            android:textSize="15sp"
+            android:textColor="?android:attr/textColorSecondary"
+            />
+
+        <TextView
+            android:id="@+id/distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/stationNumber"
+            android:text="Station Distance"
+            android:textSize="12sp"
+            android:textColor="?android:attr/textColorHint"
+            />
+
+        <ImageView
+            android:id="@+id/btn_call"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_vertical"
+            android:tint="?android:attr/textColorPrimary"
+            android:background="@drawable/ic_phone_black_24dp"
+            android:contentDescription="Call"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+
+</LinearLayout>

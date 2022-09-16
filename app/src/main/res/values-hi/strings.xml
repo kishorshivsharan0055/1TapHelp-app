@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">1TapHelp</string>
+    <string name="phone_number">संपर्क संख्या</string>
+    <string name="action_settings">समायोजन</string>
+    <string name="login">लॉग इन करें</string>
+    <string name="verification_code">पुष्टि संख्या</string>
+    <string name="submit">प्रस्तुत</string>
+    <string name="register">रजिस्टर करें</string>
+    <string name="reg_name">नाम</string>
+    <string name="title_volunteer_mode">स्वयंसेवक</string>
+    <string name="title_emergency_contacts">आपातकालीन संपर्क</string>
+    <string name="emergency_contacts_summary">5 आपातकालीन संपर्क का चयन करें जो आपातकालीन की स्थिति में अपने आप संपर्क हो जाएंगे.</string>
+    <string name="language">भाषा</string>
+    <string name="logout">लॉग आउट</string>
+    <string name="volunteer_mode_summary">जब स्वयंसेवक मोड चालू होता है, तो आपको अलर्ट प्राप्त होगा यदि आपके क्षेत्र में किसी को मदद की आवश्यकता है। जब आप किसी की मदद करते हैं, तो आपको अंकों के साथ पुरस्कृत किया जाएगा।</string>
+    <string name="user_image">उपयोगकर्ता चित्र</string>
+    <string name="text_signal_sent">संकेत भेजा</string>
+    <string name="text_signal_accepted">आपका सिग्नल भेजा गया। जब आपदा प्रबंधन स्टेशन आपके संकेत को स्वीकार करता है तो हम आपको सूचित करेंगे।</string>
+    <string name="text_HelpOnTheWay">मदद आने वाली है</string>
+    <string name="text_acceptingStation">आपका संकेत स्वीकार कर लिया गया</string>
+    <string name="text_StationDistance">लगभग 1 किलोमीटर दूर</string>
+    <string name="text_call">कॉल करें</string>
+    <string name="text_sendSignal">SOS सिग्नल भेजें</string>
+    <string name="text_captureImageHint">चित्र को मैन्युअल रूप से कैप्चर करें \ n (यदि किसी और को मदद चाहिए)</string>
+    <string name="text_captureImage">चित्र ले लो</string>
+    <string name="text_ReceivingStations">आपका संकेत निम्नलिखित आपदा प्रबंधन स्टेशनों को भेजा है:</string>
+</resources>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:paddingHorizontal="25dp"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="30dp"
+            android:layout_height="5dp"
+            android:layout_gravity="center"
+            android:layout_marginVertical="25dp"
+            android:background="@drawable/swipe_up_handle" />
+
+        <TextView
+            android:text="Station Name : "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="?android:attr/textColorPrimary"
+            android:id="@+id/bottomSheet_stationName"
+            />
+
+        <TextView
+            android:text="Phone No. : "
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:textColor="?android:attr/textColorSecondary"
+            android:id="@+id/bottomSheet_stationPhNo"
+            />
+        <TextView
+            android:text="Distance : "
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:textColor="?android:attr/textColorSecondary"
+            android:id="@+id/bottomSheet_stationDistance"
+            />
+
+        <TextView
+            android:text="Station ID : "
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bottomSheet_stationID"
+            android:textColor="?android:attr/textColorHint"
+            />
+
+        <LinearLayout
+            android:layout_marginVertical="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:text="Call Station"
+                android:id="@+id/bottomSheet_btnCallStation"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_marginEnd="10dp"
+                style="@style/Widget.MaterialComponents.Button"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:text="Locate Station"
+                android:id="@+id/bottomSheet_btnLocateStation"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_marginStart="10dp"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

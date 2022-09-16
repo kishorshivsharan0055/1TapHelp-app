@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">1TapHelp</string>
+    <string name="phone_number">संपर्क क्रमांक</string>
+    <string name="action_settings">सेटिंग्ज</string>
+    <string name="login">लॉगिन</string>
+    <string name="verification_code">सत्यापन कोड</string>
+    <string name="submit">प्रस्तुत करणे</string>
+    <string name="register">नोंदणी करा</string>
+    <string name="reg_name">नाव</string>
+    <string name="title_volunteer_mode">स्वयंसेवक मोड</string>
+    <string name="volunteer_mode_summary">जेव्हा स्वयंसेवक मोड चालू असतो तेव्हा आपल्या क्षेत्रातील एखाद्यास मदतीची आवश्यकता असल्यास आपणास सतर्कता प्राप्त होईल. आपण एखाद्यास मदत करता तेव्हा आपल्याला गुणांचे प्रतिफळ मिळेल.</string>
+    <string name="language">भाषा</string>
+    <string name="logout">बाहेर पडणे</string>
+    <string name="title_emergency_contacts">आपत्कालीन संपर्क</string>
+    <string name="emergency_contacts_summary">आपत्कालीन परिस्थितीत आपोआप संपर्क साधला जाईल असे 5 आपत्कालीन संपर्क निवडा.</string>
+    <string name="user_image">वापरकर्ता प्रतिमा</string>
+    <string name="text_signal_sent">सिग्नल पाठविला</string>
+    <string name="text_signal_accepted">आपले सिग्नल पाठविले आहे. जेव्हा एखादा डीएम स्टेशन आपला सिग्नल स्वीकारेल तेव्हा आम्ही आपल्याला सूचित करू.</string>
+    <string name="text_HelpOnTheWay">मदत मार्गात आहे</string>
+    <string name="text_acceptingStation">आपले सिग्नल स्वीकारले आहे</string>
+    <string name="text_StationDistance">अंदाजे 1 किमी अंतरावर</string>
+    <string name="text_call">कॉल करा</string>
+    <string name="text_sendSignal">SOS सिग्नल पाठवा</string>
+    <string name="text_captureImageHint">प्रतिमा कॅप्चर करा \ n (दुसर्‍या एखाद्यास मदतीची आवश्यकता असल्यास)</string>
+    <string name="text_captureImage">प्रतिमा कॅप्चर करा</string>
+    <string name="text_ReceivingStations">आपले सिग्नल खालील आपत्ती व्यवस्थापन स्टेशनवर पाठविले आहे:</string>
+</resources>

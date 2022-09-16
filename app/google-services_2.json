@@ -1,0 +1,101 @@
+{
+  "project_info": {
+    "project_number": "810659634402",
+    "firebase_url": "https://phoneauth-7ee87.firebaseio.com",
+    "project_id": "phoneauth-7ee87",
+    "storage_bucket": "phoneauth-7ee87.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:810659634402:android:d5fb1d3579f3b0659892bb",
+        "android_client_info": {
+          "package_name": "com.codicts.dmteam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "810659634402-1l54mfs7e65dj8gs74gu0097dansg0o9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.codicts.dmteam",
+            "certificate_hash": "c18b253e158e15268fd6f207e032b5f1bd83f4b5"
+          }
+        },
+        {
+          "client_id": "810659634402-9pgsov0cl1qu45962le6liuqijr2nlqd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBp17M-blELHb6wx5mWuOoQ-WX2zTgWjZI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "810659634402-9pgsov0cl1qu45962le6liuqijr2nlqd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:810659634402:android:eaed5d66385a98639892bb",
+        "android_client_info": {
+          "package_name": "com.codicts.onetaphelp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "810659634402-pjtnjjt2m09al0lahq9cojidffqv55ff.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.codicts.onetaphelp",
+            "certificate_hash": "76fc6bd463784317a7089f0e894a3b8dc68282a0"
+          }
+        },
+        {
+          "client_id": "810659634402-kel78k321sv3rugjck0jm3von9avh9mq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.codicts.onetaphelp",
+            "certificate_hash": "c18b253e158e15268fd6f207e032b5f1bd83f4b5"
+          }
+        },
+        {
+          "client_id": "810659634402-73rdnpq2bs657lhhdfp18p66878co8sn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.codicts.onetaphelp",
+            "certificate_hash": "a5acde15d73825d5826f6c024462c5d3b93963c1"
+          }
+        },
+        {
+          "client_id": "810659634402-9pgsov0cl1qu45962le6liuqijr2nlqd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBp17M-blELHb6wx5mWuOoQ-WX2zTgWjZI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "810659634402-9pgsov0cl1qu45962le6liuqijr2nlqd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:paddingHorizontal="25dp"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="30dp"
+            android:layout_height="5dp"
+            android:layout_gravity="center"
+            android:layout_marginVertical="25dp"
+            android:background="@drawable/swipe_up_handle" />
+
+        <TextView
+            android:text="Are you Safe ?"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="?android:attr/textColorPrimary"
+            android:id="@+id/bottomSheet_markmesafeTitle"
+            />
+
+        <TextView
+            android:text="Event Name : "
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:textColor="?android:attr/textColorSecondary"
+            android:id="@+id/bottomSheet_markmesafeeventName"
+            />
+
+        <LinearLayout
+            android:layout_marginVertical="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:text="I need help"
+                android:id="@+id/bottomSheet_btnUnsafe"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_marginStart="10dp"
+                style="@style/Widget.MaterialComponents.Button"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:text="I'm Safe"
+                android:id="@+id/bottomSheet_btnSafe"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_marginStart="10dp"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <TextView
+            android:text="SOS Signal Will be sent automatically if you click Unsafe button."
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="16dp"
+            android:textColor="?android:attr/textColorSecondary"
+            android:id="@+id/bottomSheet_eventNoImage"
+            android:layout_marginBottom="25dp"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
